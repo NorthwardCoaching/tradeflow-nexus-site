@@ -23,15 +23,23 @@ const HeroSection = () => {
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
+        {/* Centered Business Name and Logo */}
+        <div className="mb-12 text-center">
+          <div className="flex items-center justify-center gap-6 mb-8">
+            <img 
+              src="/lovable-uploads/5445b61c-9450-4996-818c-9ea9af7ca195.png" 
+              alt="Trades Flow Solutions Logo" 
+              className="w-16 h-16 object-contain"
+            />
+            <h2 className="text-3xl lg:text-5xl font-bold text-brand-navy tracking-wider drop-shadow-lg">
+              TRADES FLOW SOLUTIONS
+            </h2>
+          </div>
+        </div>
+
         <div className="flex flex-col lg:flex-row items-center gap-12">
           {/* Content */}
           <div className="flex-1 text-center lg:text-left">
-            <div className="mb-8 text-center">
-              <h2 className="text-3xl lg:text-5xl font-bold mb-4 text-brand-navy tracking-wider drop-shadow-lg">
-                TRADES FLOW SOLUTIONS
-              </h2>
-            </div>
-            
             <h1 className="text-5xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-brand-navy to-brand-cyan bg-clip-text text-transparent leading-tight">
               Automate Your Success
             </h1>
@@ -84,11 +92,7 @@ const HeroSection = () => {
               <div className="absolute inset-4 bg-gradient-to-r from-brand-cyan/10 to-brand-navy/10 rounded-full animate-pulse delay-150"></div>
               <div className="absolute inset-8 bg-gradient-to-r from-brand-navy/30 to-brand-cyan/30 rounded-full animate-pulse delay-300"></div>
               <div className="absolute inset-0 flex items-center justify-center">
-                <img 
-                  src="/lovable-uploads/5445b61c-9450-4996-818c-9ea9af7ca195.png" 
-                  alt="Trades Flow Solutions Logo" 
-                  className="w-20 h-20 object-contain animate-bounce"
-                />
+                <Zap className="w-24 h-24 text-brand-cyan animate-bounce" />
               </div>
             </div>
           </div>
