@@ -10,7 +10,7 @@ const Footer = () => {
             <img 
               src="/lovable-uploads/5445b61c-9450-4996-818c-9ea9af7ca195.png" 
               alt="Trades Flow Solutions Logo" 
-              className="h-16 w-auto mb-4"
+              className="h-32 w-auto mb-4 drop-shadow-2xl bg-white/10 rounded-lg p-4"
             />
             <p className="text-white/80 mb-4">
               Transforming businesses through intelligent automation and AI solutions.
