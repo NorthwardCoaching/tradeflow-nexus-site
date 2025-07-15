@@ -24,14 +24,14 @@ const HeroSection = () => {
 
       <div className="container mx-auto px-4 relative z-10">
         {/* Centered Business Name and Logo */}
-        <div className="mb-12 text-center">
-          <div className="flex items-center justify-center gap-6 mb-8">
+        <div className="mb-16 text-center">
+          <div className="flex flex-col items-center justify-center gap-8 mb-8">
             <img 
               src="/lovable-uploads/5445b61c-9450-4996-818c-9ea9af7ca195.png" 
               alt="Trades Flow Solutions Logo" 
-              className="w-16 h-16 object-contain"
+              className="w-32 h-32 lg:w-40 lg:h-40 object-contain drop-shadow-2xl"
             />
-            <h2 className="text-3xl lg:text-5xl font-bold text-brand-navy tracking-wider drop-shadow-lg">
+            <h2 className="text-4xl lg:text-6xl font-bold bg-gradient-to-r from-brand-navy via-brand-cyan to-brand-navy bg-clip-text text-transparent tracking-wider drop-shadow-2xl animate-pulse">
               TRADES FLOW SOLUTIONS
             </h2>
           </div>
