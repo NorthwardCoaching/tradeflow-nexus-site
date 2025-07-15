@@ -8,9 +8,9 @@ const Footer = () => {
           {/* Logo and description */}
           <div>
             <img 
-              src="/lovable-uploads/84892c53-bab2-438f-a2ef-d3696db461f3.png" 
-              alt="Tradeflow Solutions Logo" 
-              className="h-12 w-auto mb-4 brightness-0 invert"
+              src="/lovable-uploads/5445b61c-9450-4996-818c-9ea9af7ca195.png" 
+              alt="Trades Flow Solutions Logo" 
+              className="h-16 w-auto mb-4"
             />
             <p className="text-white/80 mb-4">
               Transforming businesses through intelligent automation and AI solutions.
