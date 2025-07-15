@@ -25,10 +25,8 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 relative z-10">
         {/* Brand Name Section with Background */}
         <div className="mb-16 text-center py-8 pb-6 border-b-8 border-brand-navy/60">
-          <h2 className="text-4xl lg:text-6xl font-bold text-white tracking-wider drop-shadow-2xl" style={{
-            textShadow: '2px 2px 0 hsl(var(--brand-navy)), -2px -2px 0 hsl(var(--brand-navy)), 2px -2px 0 hsl(var(--brand-navy)), -2px 2px 0 hsl(var(--brand-navy)), 0 0 10px hsl(var(--brand-cyan) / 0.5)',
-            WebkitTextStroke: '1px hsl(var(--brand-navy))'
-          }}>
+          <h2 className="text-4xl lg:text-6xl font-bold bg-gradient-to-r from-brand-navy via-brand-cyan to-brand-navy bg-clip-text text-transparent tracking-wider drop-shadow-lg"
+              style={{ filter: 'drop-shadow(0 0 8px hsl(var(--brand-cyan) / 0.6))' }}>
             TRADES FLOW SOLUTIONS
           </h2>
         </div>
