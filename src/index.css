@@ -9,32 +9,49 @@ All colors MUST be HSL.
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --foreground: 210 50% 10%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 210 50% 10%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 210 50% 10%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Navy blue inspired by logo */
+    --primary: 210 60% 20%;
+    --primary-foreground: 0 0% 98%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Light gray with slight blue tint */
+    --secondary: 210 20% 96%;
+    --secondary-foreground: 210 60% 20%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 210 20% 95%;
+    --muted-foreground: 210 20% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Cyan accent from logo */
+    --accent: 190 90% 50%;
+    --accent-foreground: 210 60% 20%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 210 20% 88%;
+    --input: 210 20% 95%;
+    --ring: 190 90% 50%;
+
+    /* Custom brand colors */
+    --brand-navy: 210 60% 20%;
+    --brand-cyan: 190 90% 50%;
+    --brand-blue-light: 210 70% 85%;
+    --brand-gray-light: 210 15% 95%;
+    
+    /* Gradients */
+    --gradient-brand: linear-gradient(135deg, hsl(var(--brand-navy)), hsl(var(--brand-cyan)));
+    --gradient-subtle: linear-gradient(180deg, hsl(var(--background)), hsl(var(--brand-gray-light)));
+    
+    /* Shadows */
+    --shadow-brand: 0 10px 30px -10px hsl(var(--brand-navy) / 0.3);
+    --shadow-glow: 0 0 40px hsl(var(--brand-cyan) / 0.2);
 
     --radius: 0.5rem;
 
