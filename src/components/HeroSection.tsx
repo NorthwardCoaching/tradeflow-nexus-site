@@ -23,18 +23,11 @@ const HeroSection = () => {
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
-        {/* Centered Business Name and Logo */}
-        <div className="mb-16 text-center">
-          <div className="flex flex-col items-center justify-center gap-8 mb-8">
-            <img 
-              src="/lovable-uploads/5445b61c-9450-4996-818c-9ea9af7ca195.png" 
-              alt="Trades Flow Solutions Logo" 
-              className="w-32 h-32 lg:w-40 lg:h-40 object-contain drop-shadow-2xl"
-            />
-            <h2 className="text-4xl lg:text-6xl font-bold bg-gradient-to-r from-brand-navy via-brand-cyan to-brand-navy bg-clip-text text-transparent tracking-wider drop-shadow-2xl animate-pulse">
-              TRADES FLOW SOLUTIONS
-            </h2>
-          </div>
+        {/* Brand Name at Very Top */}
+        <div className="mb-16 text-center pt-8">
+          <h2 className="text-4xl lg:text-6xl font-bold bg-gradient-to-r from-brand-cyan via-brand-navy to-brand-cyan bg-clip-text text-transparent tracking-wider drop-shadow-2xl">
+            TRADES FLOW SOLUTIONS
+          </h2>
         </div>
 
         <div className="flex flex-col lg:flex-row items-center gap-12">
@@ -85,14 +78,18 @@ const HeroSection = () => {
             </div>
           </div>
 
-          {/* Animated illustration */}
+          {/* Logo with animated background */}
           <div className="flex-1 flex justify-center">
             <div className="relative w-96 h-96">
               <div className="absolute inset-0 bg-gradient-to-r from-brand-navy/20 to-brand-cyan/20 rounded-full animate-pulse"></div>
               <div className="absolute inset-4 bg-gradient-to-r from-brand-cyan/10 to-brand-navy/10 rounded-full animate-pulse delay-150"></div>
               <div className="absolute inset-8 bg-gradient-to-r from-brand-navy/30 to-brand-cyan/30 rounded-full animate-pulse delay-300"></div>
               <div className="absolute inset-0 flex items-center justify-center">
-                <Zap className="w-24 h-24 text-brand-cyan animate-bounce" />
+                <img 
+                  src="/lovable-uploads/5445b61c-9450-4996-818c-9ea9af7ca195.png" 
+                  alt="Trades Flow Solutions Logo" 
+                  className="w-48 h-48 lg:w-56 lg:h-56 object-contain drop-shadow-2xl"
+                />
               </div>
             </div>
           </div>
