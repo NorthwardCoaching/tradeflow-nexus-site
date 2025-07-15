@@ -83,7 +83,7 @@ const HeroSection = () => {
             <div className="relative w-96 h-96">
               <div className="absolute inset-0 bg-gradient-to-r from-brand-navy/5 to-brand-cyan/5 rounded-full animate-pulse"></div>
               <div className="absolute inset-4 bg-gradient-to-r from-brand-cyan/3 to-brand-navy/3 rounded-full animate-pulse delay-150"></div>
-              <div className="absolute inset-8 bg-gradient-to-r from-brand-navy/7 to-brand-cyan/7 rounded-full animate-pulse delay-300"></div>
+              <div className="absolute inset-8 bg-gradient-to-r from-brand-navy/5 to-brand-cyan/5 rounded-full animate-pulse delay-300"></div>
               <div className="absolute inset-0 flex items-center justify-center">
                 <img 
                   src="/lovable-uploads/5445b61c-9450-4996-818c-9ea9af7ca195.png" 
