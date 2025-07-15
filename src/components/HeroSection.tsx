@@ -24,7 +24,7 @@ const HeroSection = () => {
 
       <div className="container mx-auto px-4 relative z-10">
         {/* Brand Name Section with Background */}
-        <div className="mb-16 text-center py-8 pb-6 bg-gradient-to-r from-background via-white/2 to-background border-b-8 border-brand-navy/60 shadow-lg">
+        <div className="mb-16 text-center py-8 pb-6 bg-gradient-to-r from-background via-white/0.5 to-background border-b-8 border-brand-navy/60 shadow-lg">
           <h2 className="text-4xl lg:text-6xl font-bold bg-gradient-to-r from-brand-cyan via-brand-navy to-brand-cyan bg-clip-text text-transparent tracking-wider drop-shadow-2xl">
             TRADES FLOW SOLUTIONS
           </h2>
