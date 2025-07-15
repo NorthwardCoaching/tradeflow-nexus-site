@@ -86,7 +86,7 @@ const HeroSection = () => {
               <div className="absolute inset-8 bg-gradient-to-r from-brand-navy/5 to-brand-cyan/5 rounded-full animate-pulse delay-300"></div>
               <div className="absolute inset-0 flex items-center justify-center">
                 <img 
-                  src="/lovable-uploads/5445b61c-9450-4996-818c-9ea9af7ca195.png" 
+                  src="/lovable-uploads/9023b693-1a8f-4bce-acfe-13a2f6fa0bc9.png" 
                   alt="Trades Flow Solutions Logo" 
                   className="w-90 h-90 object-contain drop-shadow-2xl border-4 border-brand-cyan rounded-full p-2 bg-white/10"
                 />

@@ -8,7 +8,7 @@ const Footer = () => {
           {/* Logo and description */}
           <div>
             <img 
-              src="/lovable-uploads/5445b61c-9450-4996-818c-9ea9af7ca195.png" 
+              src="/lovable-uploads/9023b693-1a8f-4bce-acfe-13a2f6fa0bc9.png" 
               alt="Trades Flow Solutions Logo" 
               className="h-32 w-auto mb-4 drop-shadow-2xl bg-white/10 rounded-lg p-4"
             />
