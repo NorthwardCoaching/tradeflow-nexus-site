@@ -88,7 +88,7 @@ const HeroSection = () => {
                 <img 
                   src="/lovable-uploads/9023b693-1a8f-4bce-acfe-13a2f6fa0bc9.png" 
                   alt="Trades Flow Solutions Logo" 
-                  className="w-38 h-38 object-contain drop-shadow-2xl border-4 border-brand-cyan rounded-full p-3 bg-white/10"
+                  className="w-36 h-36 object-contain drop-shadow-2xl border-4 border-brand-cyan rounded-full p-3 bg-white/10"
                 />
               </div>
             </div>
