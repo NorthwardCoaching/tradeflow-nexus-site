@@ -26,8 +26,8 @@ const HeroSection = () => {
         <div className="flex flex-col lg:flex-row items-center gap-12">
           {/* Content */}
           <div className="flex-1 text-center lg:text-left">
-            <div className="mb-8">
-              <h2 className="text-2xl lg:text-3xl font-bold mb-4 text-brand-navy tracking-wider">
+            <div className="mb-8 text-center">
+              <h2 className="text-3xl lg:text-5xl font-bold mb-4 text-brand-navy tracking-wider drop-shadow-lg">
                 TRADES FLOW SOLUTIONS
               </h2>
             </div>
@@ -87,7 +87,7 @@ const HeroSection = () => {
                 <img 
                   src="/lovable-uploads/5445b61c-9450-4996-818c-9ea9af7ca195.png" 
                   alt="Trades Flow Solutions Logo" 
-                  className="w-32 h-32 object-contain animate-bounce"
+                  className="w-20 h-20 object-contain animate-bounce"
                 />
               </div>
             </div>
